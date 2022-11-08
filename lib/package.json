@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "description": "Vue3 component library",
   "author": "Mateusz Hudzik",
+  "main": "./dist/vb-button.umd.cjs",
+  "module": "./dist/vb-button.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vb-button.js",
+      "require": "./dist/vb-button.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
