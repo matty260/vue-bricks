@@ -1,0 +1,1 @@
+export { default as VbButton } from './Component.vue';
